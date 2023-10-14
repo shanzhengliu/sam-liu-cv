@@ -5,18 +5,27 @@ Sam Liu
 ☎[+61 0401 560 851](tel:+610401560851)
 📍 Wentworth Point, NSW 2127, Sydney
 &nbsp;
-[![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sam-shanzheng-l-993207179/)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanzhengliu)
+<div style="display:flex">
+<a href="https://www.linkedin.com/in/sam-shanzheng-l-993207179/">
+  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin">
+</a>
+&nbsp;
+<a href="https://github.com/shanzhengliu">
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+</div>
 
 ----
 Education
 ---------
 
 2019.07 - 2020.12  
-:  ![](./usyd.png){: style="width:30px;height:30px;"} **Master of Information Technology**; The University of Sydney 
-
+:  <p ><img src="./usyd.png"  align="left" width="30" height="30" style="padding-right:10px" /></p>
+**Master of Information Technology**; The University of Sydney 
 
 2014.09 - 2018.06
-:  ![](./gdufs.png){: style="width:30px;height:30px"} **Bachelor of Computer Science and Technology**; Guangdong University of Foreign Studies 
+:  <p ><img src="./gdufs.png"  align="left" width="30" height="30" style="padding-right:10px" /></p>
+ **Bachelor of Computer Science and Technology**; Guangdong University of Foreign Studies 
 
 ----
 Experience
@@ -56,27 +65,9 @@ Experience
 * Took charge of the new CRM system with **Vue**, **Srpingboot**, **Mybatis Plus**, **Element Admin**, **PostgreSQL**. as a full stack developer. Used Cache technology to reduce the pressure of the high quantity requests.
 &nbsp;
 * Constructed **ElasticSearch** + **Logstash** + **Filebeat** + **Kibana** Platform System for Log collection and data analysis.
-
 ----
-Technical Experience
+Technical Background
 --------------------
-
-Side Project
-: **Go-Kubectl-Dashboard**
-   * this project is a k8s dashboard build with **go-embed-html** and **kubernetes/client-go**. 
-   Following feature are support
-    * Status check and Monitor for **Pod**, **Deployment**, **Configmap**, **Ingress**, **Service**
-    * **Webshell** for Container Connection of Pod
-    * **Log** display and download via Website
-    * **Config** export via website for Pod/Deployment/Service
-[ref]: https://github.com/shanzhengliu/go-kubectl-ui
-
-: **react-go-embed-docker-template**
-   * this project is a embed template for **react** + **golang**.
-   * docker file is ready and developer can build embed project via one command.
-   * mock and test framework is embed in front end.
-[ref]: https://github.com/shanzhengliu/react-go-embed-docker 
-
 Programming Languages/Skill
 : **Backend Lang/Framework** 
     * **Java** 
@@ -95,10 +86,8 @@ Programming Languages/Skill
       * tailwindcss, material UI, Ant Design, SASS
 
 :   **DevOps Tool Chain** 
-    * **IaC**
-      * Terraform
     * **CI/CD**
-      * Jenkins, Github Action, Cloud Build(GCP)
+      * Jenkins, Github Action, Cloud Build(GCP), Terraform
     * **kubernetes**
       * Helmchart, Kustomize, Docker
 :   **DataBase**
@@ -112,7 +101,6 @@ Programming Languages/Skill
       * ECS, EC2, RDS, OpenSearch, Cloudwatch, ECR, Code Commit, etc
     * **Google Cloud**
       * Cloud Run, Artifact Registry, Container Registry, Cloud Build, Source Repositories, etc
-
 ----
 Languages Skill & Certificate
 ----------------------------------------
@@ -122,15 +110,18 @@ Languages Skill & Certificate
      * English
 
 * **Certificate**
-    * <p ><img src="./aws.jpeg"  align="center" width="50" height="50" /> AWS Certified Solutions Architect – Professional </p>
+    * <p ><img src="./aws.jpeg"  align="left" width="30" height="30" /> AWS Certified Solutions Architect – Professional </p>
 
       * ID **RCX8CEXKZN1Q1PCD**
-    * <p ><img src="./cka.jpeg"  align="center" width="50" height="50" /> CKA: Certified Kubernetes Administrator  </p>
+    * <p ><img src="./cka.jpeg"  align="left" width="30" height="30" /> CKA: Certified Kubernetes Administrator  </p>
 
        * ID **LF-pe7v4wzvys**
-    * <p ><img src="./pmp.jpeg"  align="center" width="50" height="50" /> Project Management Professional (PMP)®</p>
+    * <p ><img src="./pmp.jpeg"  align="left" width="30" height="30" /> Project Management Professional (PMP)®</p>
 
       * ID **3366543**
-    * <p ><img src="./ms.jpeg"  align="center" width="50" height="50" /> Microsoft Certified: Azure AI Fundamentals </p>
+    * <p ><img src="./ms.jpeg"  align="left" width="30" height="30" /> Microsoft Certified: Azure AI Fundamentals </p>
+
+<p align="center"><a href="./shanzheng.liu-CV-software-engineer.pdf">PDF Version</p
+
 ----
 
