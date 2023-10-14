@@ -1,4 +1,4 @@
-Sam(Shanzheng) Liu
+Sam Liu
 ============
 
 > <liushanzheng960522@outlook.com> • +61 040 156 0851\
