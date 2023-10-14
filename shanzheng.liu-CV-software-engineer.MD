@@ -5,9 +5,7 @@ Sam Liu
 > Wentworth Point, Sydney, NSW 2127
 
 
-[![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sam-shanzheng-l-993207179/)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanzhengliu)
-
+[![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sam-shanzheng-l-993207179/)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanzhengliu)
 
 ----
 Education
@@ -15,10 +13,8 @@ Education
 
 2019.07 - 2020.12
 :   **Master, Information Technology**; University of Sydney
-
 2014.09 - 2018.06
 :   **Bachelor, Computer Science and Technology**; Guangdong University of Foreign Studies
-
 ----
 Experience
 ----------
