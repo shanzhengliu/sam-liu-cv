@@ -13,8 +13,10 @@ Education
 
 2019.07 - 2020.12
 :   **Master, Information Technology**; University of Sydney
+
 2014.09 - 2018.06
 :   **Bachelor, Computer Science and Technology**; Guangdong University of Foreign Studies
+
 ----
 Experience
 ----------
