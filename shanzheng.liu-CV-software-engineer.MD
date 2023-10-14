@@ -19,11 +19,11 @@ Education
 2014.09 - 2018.06
 :   **Bachelor, Computer Science and Technology**; Guangdong University of Foreign Studies
 
+----
 Experience
 ----------
 2021.07 - Present
 : **Resmed.Inc**; Cloud Software Engineer
-
 * Maintain and contribute feature to legacy system **Airview Web** 
 &nbsp;
 * Contributed significantly to the design and implementation of the architecture for the next-generation application, which involved using **micro frontends** with **Angular/React**.
@@ -38,9 +38,9 @@ Experience
 &nbsp;
 * Implement the **authentication** solution with **Spring Security**
 &nbsp;
+
 2021.08 - 2022.07
 : **Vnet Solutions Pty Ltd**; Java Developer
-
 * Highly involved in developing the Full Stack Inventory Management System using **Spring Boot**, **Java 8**, **Quartz**, **Hibernate (Spring-Data-JPA)**, **Redis**, **Spring Batch**, and **POI Helper**
 &nbsp;
 * Successfully completed new requirements, including Inventory Adjustment, Item Feed, and Sales Inventory Data populating
@@ -52,14 +52,13 @@ Experience
 
 2020.11 - 2021.07
 : **Articulate Pty Ltd**; Backend Developer
-
 * Highly involved in the frontend and backend development of a back-office project. Developed features such as **activity configuration**, **gift configuration** and **role limitations**. Used React hooks to improve performance for the frontend and Laravel was used to develop REST APIs and Target Backoffice.
 &nbsp;
 * Took charge of the new CRM system with **Vue**, **Srpingboot**, **Mybatis Plus**, **Element Admin**, **PostgreSQL**. as a full stack developer. Used Cache technology to reduce the pressure of the high quantity requests.
 &nbsp;
 * Constructed **ElasticSearch** + **Logstash** + **Filebeat** + **Kibana** Platform System for Log collection and data analysis.
 
-
+----
 Technical Experience
 --------------------
 
@@ -115,6 +114,7 @@ Programming Languages/Skill
     * **Google Cloud**
       * Cloud Run, Artifact Registry, Container Registry, Cloud Build, Source Repositories, etc
 
+----
 Languages Skill & Certificate
 ----------------------------------------
 *  **Languages Skill**
