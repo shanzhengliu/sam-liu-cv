@@ -1,7 +1,8 @@
 Sam Liu
 ============
 
-✉️ <liushanzheng960522@outlook.com>   ☎[+61 0401 560 851](tel:+610401560851)
+✉️ <liushanzheng960522@outlook.com>  
+☎[+61 0401 560 851](tel:+610401560851)
 📍 Wentworth Point, NSW 2127, Sydney
 [![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sam-shanzheng-l-993207179/)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanzhengliu)
 
