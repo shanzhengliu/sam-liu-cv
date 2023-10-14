@@ -4,30 +4,32 @@ Sam Liu
 ✉️ <liushanzheng960522@outlook.com>  
 ☎[+61 0401 560 851](tel:+610401560851)
 📍 Wentworth Point, NSW 2127, Sydney
+&nbsp;
 [![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sam-shanzheng-l-993207179/)[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanzhengliu)
 
 ----
 Education
 ---------
 
-2019.07 - 2020.12
-:   **Master, Information Technology**; The University of Sydney
+2019.07 - 2020.12  
+:  ![](./usyd.png){: style="width:30px;height:30px;"} **Master of Information Technology**; The University of Sydney 
+
 
 2014.09 - 2018.06
-:   **Bachelor, Computer Science and Technology**; Guangdong University of Foreign Studies
+:  ![](./gdufs.png){: style="width:30px;height:30px"} **Bachelor of Computer Science and Technology**; Guangdong University of Foreign Studies 
 
 ----
 Experience
 ----------
-2021.07 - Present
+2022.07 - Present
 : **Resmed.Inc**; Cloud Software Engineer
-* Maintain and contribute feature to legacy system **Airview Web** 
+* Maintain and contribute features to legacy system **Airview Web** 
 &nbsp;
 * Contributed significantly to the design and implementation of the architecture for the next-generation application, which involved using **micro frontends** with **Angular/React**.
 &nbsp;
 * Managed **AWS** using Terraform and use **Jenkins/Github Action** to build pipeline.
 &nbsp;
-* Implement **i18n framework** and the translation can be share with different micro frontend appplication.
+* Implement **i18n framework** and the translation can be shared with different micro frontend appplication.
 &nbsp;
 * Implement of Release Pipeline for project deployment in **Kubernetes** with **Github Action**, **Helm**, **Kustomize**.
 &nbsp;
@@ -120,12 +122,15 @@ Languages Skill & Certificate
      * English
 
 * **Certificate**
-    * AWS Certified Solutions Architect – Professional
+    * <p ><img src="./aws.jpeg"  align="center" width="50" height="50" /> AWS Certified Solutions Architect – Professional </p>
+
       * ID **RCX8CEXKZN1Q1PCD**
-    * CKA: Certified Kubernetes Administrator
-      * ID **LF-pe7v4wzvys**
-    * Project Management Professional (PMP)®
+    * <p ><img src="./cka.jpeg"  align="center" width="50" height="50" /> CKA: Certified Kubernetes Administrator  </p>
+
+       * ID **LF-pe7v4wzvys**
+    * <p ><img src="./pmp.jpeg"  align="center" width="50" height="50" /> Project Management Professional (PMP)®</p>
+
       * ID **3366543**
-    * Microsoft Certified: Azure AI Fundamentals
+    * <p ><img src="./ms.jpeg"  align="center" width="50" height="50" /> Microsoft Certified: Azure AI Fundamentals </p>
 ----
 
