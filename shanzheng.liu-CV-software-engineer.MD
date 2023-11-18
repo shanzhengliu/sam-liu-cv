@@ -119,6 +119,11 @@ Languages Skill & Certificate
     * <p ><img src="./pmp.jpeg"  align="left" width="30" height="30" /> Project Management Professional (PMP)®</p>
 
       * ID **3366543**
+
+    * <p ><img src="./gcp.jpeg"  align="left" width="30" height="30" /> Google Cloud Certified Professional Cloud Architect </p>
+
+      * ID **157522-21-2023-11-18**
+
     * <p ><img src="./ms.jpeg"  align="left" width="30" height="30" /> Microsoft Certified: Azure AI Fundamentals </p>
 
 <p align="center"><a href="./shanzheng.liu-CV-software-engineer.pdf">PDF Version</p
