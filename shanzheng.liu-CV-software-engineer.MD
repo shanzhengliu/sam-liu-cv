@@ -46,6 +46,13 @@ Experience
 &nbsp;
 * Implement the **authentication** solution with **Spring Security**
 &nbsp;
+&nbsp;
+* Legacy project migration from Bitbucket to Github, including CI/CD from **Jenkins** to **GitOps**
+&nbsp;
+&nbsp;
+* Performance optimization for Frontend/Backend Project. ( React / Java Springboot )
+&nbsp;
+
 
 2021.08 - 2022.07
 : **Vnet Solutions Pty Ltd**; Java Developer
@@ -110,21 +117,11 @@ Languages Skill & Certificate
      * English
 
 * **Certificate**
-    * <p ><img src="./aws.jpeg"  align="left" width="30" height="30" /> AWS Certified Solutions Architect – Professional </p>
-
-      * ID **RCX8CEXKZN1Q1PCD**
-    * <p ><img src="./cka.jpeg"  align="left" width="30" height="30" /> CKA: Certified Kubernetes Administrator  </p>
-
-       * ID **LF-pe7v4wzvys**
-    * <p ><img src="./pmp.jpeg"  align="left" width="30" height="30" /> Project Management Professional (PMP)®</p>
-
-      * ID **3366543**
-
-    * <p ><img src="./gcp.jpeg"  align="left" width="30" height="30" /> Google Cloud Certified Professional Cloud Architect </p>
-
-      * ID **157522-21-2023-11-18**
-
-    * <p ><img src="./ms.jpeg"  align="left" width="30" height="30" /> Microsoft Certified: Azure AI Fundamentals </p>
+    * AWS Certified Solutions Architect – Professional  
+    * CKA: Certified Kubernetes Administrator  
+    * Project Management Professional (PMP)®
+    * Google Cloud Certified Professional Cloud Architect
+    * Microsoft Certified: Azure AI Fundamentals
 
 <p align="center"><a href="./shanzheng.liu-CV-software-engineer.pdf">PDF Version</p
 
