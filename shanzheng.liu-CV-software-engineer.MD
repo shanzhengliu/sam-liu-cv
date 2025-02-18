@@ -1,4 +1,4 @@
-## Sam Liu
+### Sam Liu
 ✉️ liushanzheng960522@outlook.com  
 ☎️ [+61 0401 560 851](tel:+610401560851)  
 📍 Wentworth Point, NSW 2127, Sydney  
@@ -46,7 +46,6 @@
 - Provided Level 3 technical support and managed deployments in both PRD and UAT environments.
 
 ---
-
 ##### **Articulate Pty Ltd** | **Backend Developer**  
 *November 2020 – July 2021*
 
@@ -55,9 +54,7 @@
 - Built a log collection and data analysis platform using **ElasticSearch**, **Logstash**, **Filebeat**, and **Kibana**.
 
 ---
-
 #### Technical Background
-
 - **Languages & Frameworks:**
   - **Backend:**  
     **Java** (Spring, Spring Boot, Spring MVC, Spring Cloud, Eureka, Spring Data JPA), **Python** (Flask, Django, FastAPI), **Go** (Gin, Beego)
@@ -79,15 +76,15 @@
 
 ---
 
-### Education
+#### Education
 
-#### **Master of Information Technology**  
+##### **Master of Information Technology**  
 **The University of Sydney**  
 *July 2019 – December 2020*  
 
 ---
 
-## Certifications & Personal Projects
+#### Certifications & Personal Projects
 
 - **Certifications:**  
   - AWS Certified Solutions Architect – Professional  
