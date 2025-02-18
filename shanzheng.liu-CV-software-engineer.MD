@@ -1,129 +1,108 @@
-Sam Liu
-============
+## Sam Liu
+✉️ liushanzheng960522@outlook.com  
+☎️ [+61 0401 560 851](tel:+610401560851)  
+📍 Wentworth Point, NSW 2127, Sydney  
+[LinkedIn](https://www.linkedin.com/in/sam-shanzheng-l-993207179/) | [GitHub](https://github.com/shanzhengliu)
 
-✉️ <liushanzheng960522@outlook.com>  
-☎[+61 0401 560 851](tel:+610401560851)
-📍 Wentworth Point, NSW 2127, Sydney
-&nbsp;
-<div style="display:flex">
-<a href="https://www.linkedin.com/in/sam-shanzheng-l-993207179/">
-  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin">
-</a>
-&nbsp;
-<a href="https://github.com/shanzhengliu">
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-</div>
+---
+#### Experience
+##### **ResMed Inc.** | **Cloud Software Engineer (Full Stack)**  
+*July 2022 – Present*
 
-----
-Education
----------
+- **Legacy System Maintenance & Enhancement:**  
+  - Maintained and enhanced the legacy **Airview Web** system to ensure robust performance and reliability.  
+  - Implemented new features and optimizations that streamlined system operations.
 
-2019.07 - 2020.12  
-:  <p ><img src="./usyd.png"  align="left" width="30" height="30" style="padding-right:10px" /></p>
-**Master of Information Technology**; The University of Sydney 
+- **Next-Generation Application Architecture:**  
+  - Contributed to designing and implementing a next-generation architecture using **micro frontends**.  
+  - Developed scalable user interfaces with **Angular** and **React**.
 
-2014.09 - 2018.06
-:  <p ><img src="./gdufs.png"  align="left" width="30" height="30" style="padding-right:10px" /></p>
- **Bachelor of Computer Science and Technology**; Guangdong University of Foreign Studies 
+- **Cloud Infrastructure & CI/CD Pipelines:**  
+  - Managed **AWS** infrastructure using **Terraform** for secure cloud deployments.  
+  - Designed and maintained **CI/CD pipelines** with **Jenkins** and **GitHub Actions**, achieving a **500% speed increase** in deployments.  
+  - Implemented release pipelines for **Kubernetes** deployments using **Helm** and **Kustomize**.
 
-----
-Experience
-----------
-2022.07 - Present
-: **Resmed.Inc**; Cloud Software Engineer
-* Maintain and contribute features to legacy system **Airview Web** 
-&nbsp;
-* Contributed significantly to the design and implementation of the architecture for the next-generation application, which involved using **micro frontends** with **Angular/React**.
-&nbsp;
-* Managed **AWS** using Terraform and use **Jenkins/Github Action** to build pipeline.
-&nbsp;
-* Implement **i18n framework** and the translation can be shared with different micro frontend appplication.
-&nbsp;
-* Implement of Release Pipeline for project deployment in **Kubernetes** with **Github Action**, **Helm**, **Kustomize**.
-&nbsp;
-* Take charge of the organization experience service api development with **Java 17**, **SpringBoot 3.2**, **Spring Weflux**
-&nbsp;
-* Implement the **authentication** solution with **Spring Security**
-&nbsp;
-&nbsp;
-* Legacy project migration from Bitbucket to Github, including CI/CD from **Jenkins** to **GitOps**
-&nbsp;
-&nbsp;
-* Performance optimization for Frontend/Backend Project. ( React / Java Springboot )
-&nbsp;
+- **Backend Service Development & Security:**  
+  - Led the development of the experience service API using **Java 17**, **Spring Boot 3.2**, and **Spring WebFlux**.  
+  - Developed robust authentication solutions with **Spring Security**.
 
+- **Project Migration & Performance Optimization:**  
+  - Directed the migration from **Bitbucket** to **GitHub** and transitioned CI/CD from **Jenkins** to **GitOps**.  
+  - Enhanced performance across frontend (**React**) and backend (**Java Spring Boot**) systems, achieving a **10x reduction** in image size.
 
-2021.08 - 2022.07
-: **Vnet Solutions Pty Ltd**; Java Developer
-* Highly involved in developing the Full Stack Inventory Management System using **Spring Boot**, **Java 8**, **Quartz**, **Hibernate (Spring-Data-JPA)**, **Redis**, **Spring Batch**, and **POI Helper**
-&nbsp;
-* Successfully completed new requirements, including Inventory Adjustment, Item Feed, and Sales Inventory Data populating
-&nbsp;
-* Worked extensively on the Front-End project, which was developed using **Angular 2.0** and **AG-Grid**
-&nbsp;
-* Rotated as a **Level 3 support** role, providing **technical services** to the Business team and managing deployment in both PRD and UAT environments
-&nbsp;
+- **Leadership & Collaboration:**  
+  - Collaborated with **Product Managers** to align project objectives.  
+  - Led knowledge-sharing sessions and provided **mentorship**.  
+  - Served as a rotating **Scrum Master**, ensuring agile practices across teams.  
+  - Spearheaded the standardization of development and release processes across multiple teams.
 
-2020.11 - 2021.07
-: **Articulate Pty Ltd**; Backend Developer
-* Highly involved in the frontend and backend development of a back-office project. Developed features such as **activity configuration**, **gift configuration** and **role limitations**. Used React hooks to improve performance for the frontend and Laravel was used to develop REST APIs and Target Backoffice.
-&nbsp;
-* Took charge of the new CRM system with **Vue**, **Srpingboot**, **Mybatis Plus**, **Element Admin**, **PostgreSQL**. as a full stack developer. Used Cache technology to reduce the pressure of the high quantity requests.
-&nbsp;
-* Constructed **ElasticSearch** + **Logstash** + **Filebeat** + **Kibana** Platform System for Log collection and data analysis.
-----
-Technical Background
---------------------
-Programming Languages/Skill
-: **Backend Lang/Framework** 
-    * **Java** 
-      * Spring framework, Spring Boot, SpringMVC, Spring Cloud, Eureka, Srping Data JPA
-    * **JavaScript/TypeScript**  
-      * Express
-    * **Python** 
-      * Flask, Django
-    * **Go** 
-      * Gin, Beego
+---
 
-:   **Frontend Lang/Framework** 
-    * **JavaScript/TypeScript** 
-      * React, Next.js, Vue, Angular
-    * **Html/CSS** 
-      * tailwindcss, material UI, Ant Design, SASS
+##### **Vnet Solutions Pty Ltd** | **Java Developer**  
+*August 2021 – July 2022*
 
-:   **DevOps Tool Chain** 
-    * **CI/CD**
-      * Jenkins, Github Action, Cloud Build(GCP), Terraform
-    * **kubernetes**
-      * Helmchart, Kustomize, Docker
-:   **DataBase**
-    * **Relationship Database**
-      *  Mysql, SqlServer, PostgreSql
-    * **NoSql**
-      * Monogo, Elasticsearch
+- Developed a full-stack Inventory Management System using **Java 8**, **Spring Boot**, **Hibernate (Spring Data JPA)**, **Quartz**, **Redis**, **Spring Batch**, and **POI Helper**.
+- Contributed to frontend development with **Angular 2.0** and **AG-Grid**.
+- Provided Level 3 technical support and managed deployments in both PRD and UAT environments.
 
-:   **Cloud Service**
-    * **AWS**
-      * ECS, EC2, RDS, OpenSearch, Cloudwatch, ECR, Code Commit, etc
-    * **Google Cloud**
-      * Cloud Run, Artifact Registry, Container Registry, Cloud Build, Source Repositories, etc
-----
-Languages Skill & Certificate
-----------------------------------------
-*  **Languages Skill**
-     * Cantonese
-     * Manderine
-     * English
+---
 
-* **Certificate**
-    * AWS Certified Solutions Architect – Professional  
-    * CKA: Certified Kubernetes Administrator  
-    * Project Management Professional (PMP)®
-    * Google Cloud Certified Professional Cloud Architect
-    * Microsoft Certified: Azure AI Fundamentals
+##### **Articulate Pty Ltd** | **Backend Developer**  
+*November 2020 – July 2021*
 
-<p align="center"><a href="./shanzheng.liu-CV-software-engineer.pdf">PDF Version</p
+- Developed features for a back-office project (e.g., **activity configuration**, **gift configuration**, **role limitations**) using **React** (with hooks) for the frontend and **Laravel** for backend REST APIs.
+- Led the development of a new CRM system as a full-stack developer using **Vue**, **Spring Boot**, **MyBatis Plus**, **Element Admin**, and **PostgreSQL**. Utilized caching strategies to handle high-volume requests.
+- Built a log collection and data analysis platform using **ElasticSearch**, **Logstash**, **Filebeat**, and **Kibana**.
 
-----
+---
 
+#### Technical Background
+
+- **Languages & Frameworks:**
+  - **Backend:**  
+    **Java** (Spring, Spring Boot, Spring MVC, Spring Cloud, Eureka, Spring Data JPA), **Python** (Flask, Django, FastAPI), **Go** (Gin, Beego)
+  - **Frontend:**  
+    **JavaScript/TypeScript** (React, Next.js, Vue, Angular), **HTML/CSS** (Tailwind CSS, Material UI, Ant Design, SASS)
+  - **Mobile:**  
+    **SwiftUI**
+
+- **DevOps & Cloud:**
+  - **CI/CD & Tools:** Jenkins, GitHub Actions, Cloud Build (GCP), Terraform  
+  - **Containerization & Orchestration:** Docker, Kubernetes (Helm, Kustomize)  
+  - **Cloud Services:**  
+    - **AWS:** ECS, EC2, RDS, OpenSearch, CloudWatch, ECR, CodeCommit, etc.  
+    - **Google Cloud:** Cloud Run, Artifact Registry, Container Registry, Cloud Build, Source Repositories, etc.
+
+- **Databases:**
+  - **Relational:** MySQL, SQL Server, PostgreSQL  
+  - **NoSQL:** MongoDB, Elasticsearch, Redis, Firestore
+
+---
+
+### Education
+
+#### **Master of Information Technology**  
+**The University of Sydney**  
+*July 2019 – December 2020*  
+
+---
+
+## Certifications & Personal Projects
+
+- **Certifications:**  
+  - AWS Certified Solutions Architect – Professional  
+  - CKA: Certified Kubernetes Administrator  
+  - Project Management Professional (PMP)®  
+  - Google Cloud Certified Professional Cloud Architect  
+  - Microsoft Certified: Azure AI Fundamentals
+
+- **Personal Project:**  
+  **Taste T AI**  
+  *December 2024 – Present*  
+  - **Website:** [tastetai.com](https://www.tastetai.com/)  
+  - **App Store:** [Taste T AI on App Store](https://apps.apple.com/us/app/taste-t-ai/id6738065650)  
+  - **Description:** Transform your ingredients into tailored recipes with this AI-powered recipe assistant—making cooking effortless and exciting.
+
+---
+
+[Download PDF Version](./shanzheng.liu-CV-software-engineer.pdf)
