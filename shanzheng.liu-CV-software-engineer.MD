@@ -1,104 +1,86 @@
-### Sam Liu
-✉️ liushanzheng960522@outlook.com  
-☎️ [+61 0401 560 851](tel:+610401560851)  
-📍 Wentworth Point, NSW 2127, Sydney  
+# Sam Liu
+
+**Java | Spring Boot | React | AWS | Kubernetes | Terraform | CI/CD**
+
+Sydney, NSW | [+61 401 560 851](tel:+61401560851) | [liushanzheng960522@outlook.com](mailto:liushanzheng960522@outlook.com)  
 [LinkedIn](https://www.linkedin.com/in/sam-shanzheng-l-993207179/) | [GitHub](https://github.com/shanzhengliu)
 
 ---
-#### Experience
-##### **ResMed Inc.** | **Cloud Software Engineer (Full Stack)**  
-*July 2022 – Present*
 
-- **Legacy System Maintenance & Enhancement:**  
-  - Maintained and enhanced the legacy **Airview Web** system to ensure robust performance and reliability.  
-  - Implemented new features and optimizations that streamlined system operations.
+## Professional Summary
 
-- **Next-Generation Application Architecture:**  
-  - Contributed to designing and implementing a next-generation architecture using **micro frontends**.  
-  - Developed scalable user interfaces with **Angular** and **React**.
-
-- **Cloud Infrastructure & CI/CD Pipelines:**  
-  - Managed **AWS** infrastructure using **Terraform** for secure cloud deployments.  
-  - Designed and maintained **CI/CD pipelines** with **Jenkins** and **GitHub Actions**, achieving a **500% speed increase** in deployments.  
-  - Implemented release pipelines for **Kubernetes** deployments using **Helm** and **Kustomize**.
-
-- **Backend Service Development & Security:**  
-  - Led the development of the experience service API using **Java 17**, **Spring Boot 3.2**, and **Spring WebFlux**.  
-  - Developed robust authentication solutions with **Spring Security**.
-
-- **Project Migration & Performance Optimization:**  
-  - Directed the migration from **Bitbucket** to **GitHub** and transitioned CI/CD from **Jenkins** to **GitOps**.  
-  - Enhanced performance across frontend (**React**) and backend (**Java Spring Boot**) systems, achieving a **10x reduction** in image size.
-
-- **Leadership & Collaboration:**  
-  - Collaborated with **Product Managers** to align project objectives.  
-  - Led knowledge-sharing sessions and provided **mentorship**.  
-  - Served as a rotating **Scrum Master**, ensuring agile practices across teams.  
-  - Spearheaded the standardization of development and release processes across multiple teams.
+Cloud-focused full stack software engineer with 8+ years of software engineering experience, including enterprise full stack and cloud engineering roles across Australia and earlier international experience. Strong hands-on background across **Java/Spring Boot**, **React/Angular**, **AWS**, **Terraform**, **Kubernetes**, **Helm**, and **GitHub Actions**, with proven impact in deployment acceleration, platform migration, image optimization, and engineering process standardization. Comfortable working across product, platform, and delivery teams in agile environments.
 
 ---
 
-##### **Vnet Solutions Pty Ltd** | **Java Developer**  
-*August 2021 – July 2022*
+## Core Skills
 
-- Developed a full-stack Inventory Management System using **Java 8**, **Spring Boot**, **Hibernate (Spring Data JPA)**, **Quartz**, **Redis**, **Spring Batch**, and **POI Helper**.
-- Contributed to frontend development with **Angular 2.0** and **AG-Grid**.
-- Provided Level 3 technical support and managed deployments in both PRD and UAT environments.
-
----
-##### **Articulate Pty Ltd** | **Backend Developer**  
-*November 2020 – July 2021*
-
-- Developed features for a back-office project (e.g., **activity configuration**, **gift configuration**, **role limitations**) using **React** (with hooks) for the frontend and **Laravel** for backend REST APIs.
-- Led the development of a new CRM system as a full-stack developer using **Vue**, **Spring Boot**, **MyBatis Plus**, **Element Admin**, and **PostgreSQL**. Utilized caching strategies to handle high-volume requests.
-- Built a log collection and data analysis platform using **ElasticSearch**, **Logstash**, **Filebeat**, and **Kibana**.
-
----
-#### Technical Background
-- **Languages & Frameworks:**
-  - **Backend:**  
-    **Java** (Spring, Spring Boot, Spring MVC, Spring Cloud, Eureka, Spring Data JPA), **Python** (Flask, Django, FastAPI), **Go** (Gin, Beego)
-  - **Frontend:**  
-    **JavaScript/TypeScript** (React, Next.js, Vue, Angular), **HTML/CSS** (Tailwind CSS, Material UI, Ant Design, SASS)
-  - **Mobile:**  
-    **SwiftUI**
-
-- **DevOps & Cloud:**
-  - **CI/CD & Tools:** Jenkins, GitHub Actions, Cloud Build (GCP), Terraform  
-  - **Containerization & Orchestration:** Docker, Kubernetes (Helm, Kustomize)  
-  - **Cloud Services:**  
-    - **AWS:** ECS, EC2, RDS, OpenSearch, CloudWatch, ECR, CodeCommit, etc.  
-    - **Google Cloud:** Cloud Run, Artifact Registry, Container Registry, Cloud Build, Source Repositories, etc.
-
-- **Databases:**
-  - **Relational:** MySQL, SQL Server, PostgreSQL  
-  - **NoSQL:** MongoDB, Elasticsearch, Redis, Firestore
+**Backend:** Java 8/17, Spring Boot, Spring WebFlux, Spring Security, Spring MVC, Spring Data JPA, Hibernate, Laravel, REST APIs  
+**Frontend:** TypeScript, JavaScript, React, Angular, Vue, Next.js, AG Grid, Tailwind CSS, Material UI, Ant Design  
+**Cloud & DevOps:** AWS, GCP, Terraform, Docker, Kubernetes, Helm, Kustomize, Jenkins, GitHub Actions, GitOps, Cloud Build  
+**Data & Search:** PostgreSQL, MySQL, SQL Server, MongoDB, Redis, Elasticsearch, OpenSearch, Firestore  
+**Practices:** Micro frontends, CI/CD, infrastructure as code, developer environments, environment isolation, MCP services, feature flag platforms, platform migration, observability, agile delivery, mentoring
 
 ---
 
-#### Education
+## Experience
 
-##### **Master of Information Technology**  
+### ResMed Inc. | Cloud Software Engineer (Full Stack)
+
+*July 2022 - Present*
+
+- Maintained and enhanced **AirView Web**, a large-scale enterprise healthcare platform, improving reliability while continuing to deliver new product features.
+- Contributed to the next-generation application architecture using **micro frontends**, building scalable user interfaces with **Angular** and **React**.
+- Led development of an experience service API using **Java 17**, **Spring Boot 3.2**, **Spring WebFlux**, and **Spring Security**, supporting secure integration between frontend applications and backend services.
+- Managed and evolved **AWS** infrastructure with **Terraform**, supporting repeatable and secure cloud deployments.
+- Designed and maintained CI/CD workflows using **Jenkins** and **GitHub Actions**, improving deployment speed by **500%**.
+- Designed and implemented isolated developer deployment environments, enabling engineers to provision shared test instances and validate changes independently without impacting mainline or production-like environments.
+- Developed a shared **LaunchDarkly MCP service** to centralize feature-flag access for internal teams and automation workflows, reducing duplicate subscription usage and lowering SaaS costs.
+- Optimized CI/CD pipeline execution through workflow redesign, caching, and parallelization, reducing end-to-end build and deployment time by **50%+**.
+- Built Kubernetes release pipelines using **Helm** and **Kustomize**, improving consistency across application environments.
+- Drove migration from **Bitbucket** to **GitHub** and supported the transition from Jenkins-based delivery to **GitOps** workflows.
+- Optimized frontend and backend build artifacts, including a **10x reduction in container image size**.
+- Standardized development and release practices across multiple teams, led knowledge-sharing sessions, mentored engineers, and served as a rotating Scrum Master.
+
+---
+
+### Vnet Solutions Pty Ltd | Java Developer
+
+*August 2021 - July 2022*
+
+- Built and maintained a full stack inventory management system using **Java 8**, **Spring Boot**, **Hibernate/Spring Data JPA**, **Quartz**, **Redis**, **Spring Batch**, and **Apache POI**.
+- Developed frontend features with **Angular** and **AG Grid**, improving operational data entry and reporting workflows.
+- Supported production and UAT deployments, provided Level 3 technical support, and resolved application issues across backend, frontend, and database layers.
+
+---
+
+### Articulate Pty Ltd | Backend Developer
+
+*November 2020 - July 2021*
+
+- Developed back-office platform features including activity configuration, gift configuration, and role-based limitations using **React** and **Laravel REST APIs**.
+- Led delivery of a CRM system as a full stack developer using **Vue**, **Spring Boot**, **MyBatis Plus**, **Element Admin**, and **PostgreSQL**.
+- Implemented caching strategies for high-volume request paths and improved backend responsiveness.
+- Built a log collection and analytics platform using **Elasticsearch**, **Logstash**, **Filebeat**, and **Kibana** to improve operational visibility.
+
+---
+
+## Education
+
+### Master of Information Technology
+
 **The University of Sydney**  
-*July 2019 – December 2020*  
+*July 2019 - December 2020*
 
 ---
 
-#### Certifications & Personal Projects
+## Certifications
 
-- **Certifications:**  
-  - AWS Certified Solutions Architect – Professional  
-  - CKA: Certified Kubernetes Administrator  
-  - Project Management Professional (PMP)®  
-  - Google Cloud Certified Professional Cloud Architect  
-  - Microsoft Certified: Azure AI Fundamentals
-
-- **Personal Project:**  
-  **Taste T AI**  
-  *December 2024 – Present*  
-  - **Website:** [tastetai.com](https://www.tastetai.com/)  
-  - **App Store:** [Taste T AI on App Store](https://apps.apple.com/us/app/taste-t-ai/id6738065650)  
-  - **Description:** Transform your ingredients into tailored recipes with this AI-powered recipe assistant—making cooking effortless and exciting.
+- AWS Certified Solutions Architect - Professional
+- Google Cloud Certified Professional Cloud Architect
+- Certified Kubernetes Administrator (CKA)
+- Project Management Professional (PMP)
+- Microsoft Certified: Azure AI Fundamentals
 
 ---
 
