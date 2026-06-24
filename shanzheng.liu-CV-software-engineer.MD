@@ -29,17 +29,16 @@ Cloud-focused full stack software engineer with 8+ years of software engineering
 
 *July 2022 - Present*
 
-- Maintained and enhanced **AirView Web**, a large-scale enterprise healthcare platform, improving reliability while continuing to deliver new product features.
-- Contributed to the next-generation application architecture using **micro frontends**, building scalable user interfaces with **Angular** and **React**.
+- Maintained and enhanced **AirView Web**, a large-scale enterprise healthcare platform used across **Europe, APAC, and the United States**, delivering new product features while improving reliability and operational maintainability.
+- Built scalable frontend capabilities across **Angular** and **React** as part of a next-generation **micro frontend** architecture.
 - Led development of an experience service API using **Java 17**, **Spring Boot 3.2**, **Spring WebFlux**, and **Spring Security**, supporting secure integration between frontend applications and backend services.
-- Managed and evolved **AWS** infrastructure with **Terraform**, supporting repeatable and secure cloud deployments.
-- Designed and maintained CI/CD workflows using **Jenkins** and **GitHub Actions**, improving deployment speed by **500%**.
-- Designed and implemented isolated developer deployment environments, enabling engineers to provision shared test instances and validate changes independently without impacting mainline or production-like environments.
-- Developed a shared **LaunchDarkly MCP service** to centralize feature-flag access for internal teams and automation workflows, reducing duplicate subscription usage and lowering SaaS costs.
-- Optimized CI/CD pipeline execution through workflow redesign, caching, and parallelization, reducing end-to-end build and deployment time by **50%+**.
-- Built Kubernetes release pipelines using **Helm** and **Kustomize**, improving consistency across application environments.
+- Managed **AWS** infrastructure with **Terraform** and supported Kubernetes-based deployments using **Helm** and **Kustomize**.
+- Redesigned Java CI/CD workflows across **Jenkins** and **GitHub Actions**, reducing JAR build time from approximately **30 minutes to 3 minutes** through build optimization and caching.
+- Reduced test and build pipeline duration by **50%+** by parallelizing test execution and applying targeted dependency, build, and artifact caching strategies.
+- Designed isolated developer deployment environments used by **100+ engineers**, enabling teams to deploy and test feature branches independently without disrupting shared mainline or production-like environments.
+- Designed and delivered a shared **LaunchDarkly MCP service** with centralized access and user permission controls, allowing developers to use feature-flag capabilities through a shared platform instead of requiring individual seats and reducing SaaS subscription costs.
 - Drove migration from **Bitbucket** to **GitHub** and supported the transition from Jenkins-based delivery to **GitOps** workflows.
-- Optimized frontend and backend build artifacts, including a **10x reduction in container image size**.
+- Optimized frontend and backend build artifacts, reducing container image size from approximately **2GB to 400MB**.
 - Standardized development and release practices across multiple teams, led knowledge-sharing sessions, mentored engineers, and served as a rotating Scrum Master.
 
 ---
