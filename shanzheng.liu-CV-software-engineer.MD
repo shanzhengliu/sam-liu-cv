@@ -1,5 +1,7 @@
 # Sam Liu
 
+Cloud Software Engineer | Platform, DevEx & Full Stack Systems
+
 Sydney, NSW | [+61 401 560 851](tel:+61401560851) | [liushanzheng960522@outlook.com](mailto:liushanzheng960522@outlook.com)  
 [LinkedIn](https://www.linkedin.com/in/sam-shanzheng-l-993207179/) | [GitHub](https://github.com/shanzhengliu)
 
@@ -7,27 +9,25 @@ Sydney, NSW | [+61 401 560 851](tel:+61401560851) | [liushanzheng960522@outlook.
 
 ## Professional Summary
 
-Software engineer with 8+ years of hands-on experience building enterprise applications and improving developer productivity across cloud delivery platforms. Strong background across **Java/Spring Boot**, **React/Angular**, **AWS**, **Terraform**, **Kubernetes**, **Helm**, **Jenkins**, and **GitHub Actions**, with proven impact reducing build times, improving deployment isolation, optimizing container images, and supporting platform migration across engineering teams. Comfortable working across product, platform, and delivery teams in agile environments.
+Software engineer with 8+ years of hands-on experience building enterprise applications and improving developer productivity across cloud delivery platforms. Strong across **Java/Spring Boot**, **React/Angular**, **AWS**, **Terraform**, **Kubernetes**, **Helm**, **Jenkins**, and **GitHub Actions**. Recent work focuses on CI/CD acceleration, isolated developer environments, container optimization, observability, and platform migration across engineering teams.
 
 ---
 
 ## Selected Impact
 
 - Reduced Java build time from approximately **30 minutes to 3 minutes** through CI/CD workflow redesign, build optimization, and caching.
-- Designed traffic-routed isolated deployment environments used by **100+ engineers**, removing shared test-channel waiting by routing developers to their own branch environment with fallback to the default main deployment.
-- Reduced container image size from approximately **2GB to 400MB** across frontend and backend build artifacts.
-- Supported migration from **Bitbucket** and Jenkins-based delivery toward **GitHub** and **GitOps** workflows.
+- Designed traffic-routed isolated deployment environments used by **100+ engineers**, removing shared test-channel waiting with branch-aware routing and fallback to main.
+- Reduced frontend and backend container image sizes from approximately **2GB to 400MB**.
+- Supported migration from **Bitbucket/Jenkins** delivery toward **GitHub** and **GitOps** workflows.
 
 ---
 
 ## Core Skills
 
-**Cloud & DevOps:** AWS, GCP, Terraform, Docker, Kubernetes, Helm, Kustomize, Jenkins, GitHub Actions, GitOps, Cloud Build  
-**DevEx:** CI/CD optimization, developer environments, environment isolation, internal developer tooling, feature flag tooling, build caching, platform migration, engineering standards  
-**Backend:** Java 8/17, Spring Boot, Spring WebFlux, Spring Security, Spring MVC, Spring Data JPA, Hibernate, REST APIs  
-**Frontend:** TypeScript, JavaScript, React, Angular, Vue, Next.js, AG Grid, Tailwind CSS, Material UI, Ant Design, micro frontends  
-**Data & Search:** PostgreSQL, MySQL, SQL Server, MongoDB, Redis, Elasticsearch, OpenSearch, Firestore  
-**Practices:** Infrastructure as code, observability, Datadog monitoring, RUM/browser logging, agile delivery, mentoring, knowledge sharing, release standardization
+**Cloud & DevOps:** AWS, GCP, Terraform, Docker, Kubernetes, Helm, Kustomize, Jenkins, GitHub Actions, GitOps  
+**Developer Experience:** CI/CD optimization, isolated developer environments, internal tooling, feature flags, build caching, engineering standards  
+**Backend & Frontend:** Java 8/17, Spring Boot, WebFlux, Spring Security, REST APIs, TypeScript, React, Angular, Vue, micro frontends  
+**Data & Observability:** PostgreSQL, MySQL, SQL Server, MongoDB, Redis, Elasticsearch, OpenSearch, Datadog, RUM/browser logging
 
 ---
 
@@ -37,18 +37,14 @@ Software engineer with 8+ years of hands-on experience building enterprise appli
 
 *July 2022 - Present*
 
-- Redesigned Java CI/CD workflows across **Jenkins** and **GitHub Actions**, reducing JAR build time from approximately **30 minutes to 3 minutes** through build optimization and caching.
-- Reduced test and build pipeline duration by **50%+** by parallelizing test execution and applying targeted dependency, build, and artifact caching strategies.
-- Designed traffic-routed isolated developer deployment environments used by **100+ engineers**, replacing a shared test-channel bottleneck where teams had to wait for others to finish testing before deploying their own changes.
-- Implemented branch-aware routing that directed developers to their own deployed environment when available and fell back to the default main deployment when no branch environment was deployed.
+- Redesigned Java CI/CD workflows across **Jenkins** and **GitHub Actions**, reducing JAR build time from approximately **30 minutes to 3 minutes**; reduced broader test/build duration by **50%+** through parallelization and targeted caching.
+- Designed traffic-routed isolated developer deployment environments for **100+ engineers**, replacing shared test-channel bottlenecks with branch-aware routing and automatic fallback to the default main deployment.
 - Optimized frontend and backend build artifacts, reducing container image size from approximately **2GB to 400MB**.
 - Drove migration from **Bitbucket** to **GitHub** and supported the transition from Jenkins-based delivery to **GitOps** workflows.
-- Built an internal **LaunchDarkly** feature-flag access service with centralized permissions, allowing developers to use feature-flag capabilities through a shared platform instead of requiring individual seats and reducing SaaS subscription costs.
-- Managed **AWS** infrastructure with **Terraform** and supported Kubernetes-based deployments using **Helm** and **Kustomize**.
-- Configured **Datadog** monitors, RUM, and browser log collection to connect frontend user sessions with backend service logs and APM traces for faster issue analysis.
-- Maintained and enhanced **AirView Web**, a large-scale enterprise healthcare platform used across **Europe, APAC, and the United States**, delivering new product features while improving reliability and operational maintainability.
-- Built backend and frontend capabilities using **Java 17**, **Spring Boot 3.2**, **Spring WebFlux**, **Spring Security**, **Angular**, and **React** as part of a next-generation micro frontend architecture.
-- Standardized development and release practices across multiple teams, led knowledge-sharing sessions, mentored engineers, and served as a rotating Scrum Master.
+- Built an internal **LaunchDarkly** feature-flag access service with centralized permissions, enabling shared developer access while reducing individual SaaS seat dependency.
+- Managed **AWS** infrastructure with **Terraform** and supported Kubernetes deployments using **Helm** and **Kustomize**; configured **Datadog** monitors, RUM, browser logs, and APM correlation for faster issue analysis.
+- Maintained and enhanced **AirView Web**, a large-scale enterprise healthcare platform used across **Europe, APAC, and the United States**; delivered backend and frontend capabilities with **Java 17**, **Spring Boot 3.2**, **WebFlux**, **Angular**, and **React**.
+- Standardized development and release practices, led knowledge-sharing sessions, mentored engineers, and served as a rotating Scrum Master.
 
 ---
 
@@ -57,8 +53,7 @@ Software engineer with 8+ years of hands-on experience building enterprise appli
 *August 2021 - July 2022*
 
 - Built and maintained a full stack inventory management system using **Java 8**, **Spring Boot**, **Hibernate/Spring Data JPA**, **Quartz**, **Redis**, **Spring Batch**, and **Apache POI**.
-- Developed frontend features with **Angular** and **AG Grid**, improving operational data entry and reporting workflows.
-- Supported production and UAT deployments, provided Level 3 technical support, and resolved application issues across backend, frontend, and database layers.
+- Developed Angular and AG Grid features for operational data entry and reporting workflows; supported production/UAT deployments and Level 3 issue resolution across backend, frontend, and database layers.
 
 ---
 
@@ -66,10 +61,8 @@ Software engineer with 8+ years of hands-on experience building enterprise appli
 
 *November 2020 - July 2021*
 
-- Developed back-office platform features including activity configuration, gift configuration, and role-based limitations using **React** and **Laravel REST APIs**.
-- Led delivery of a CRM system as a full stack developer using **Vue**, **Spring Boot**, **MyBatis Plus**, **Element Admin**, and **PostgreSQL**.
-- Implemented caching strategies for high-volume request paths and improved backend responsiveness.
-- Built a log collection and analytics platform using **Elasticsearch**, **Logstash**, **Filebeat**, and **Kibana** to improve operational visibility.
+- Delivered back-office, CRM, and role-based platform capabilities using **React**, **Vue**, **Laravel REST APIs**, **Spring Boot**, **MyBatis Plus**, and **PostgreSQL**.
+- Implemented caching for high-volume request paths and built ELK-based log collection and analytics to improve operational visibility.
 
 ---
 
@@ -92,4 +85,4 @@ Software engineer with 8+ years of hands-on experience building enterprise appli
 
 ---
 
-[Download PDF Version](./shanzheng.liu-CV-software-engineer.pdf)
+[Download PDF Version](./shanzheng.liu-CV-software-engineer-readable.pdf)

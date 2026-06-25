@@ -162,6 +162,10 @@
       margin-top: 8px;
     }
 
+    .page-break-before {
+      margin-top: 26px;
+    }
+
     @media (max-width: 720px) {
       main {
         width: 100%;
@@ -231,6 +235,12 @@
         padding: 5px 8px;
       }
 
+      .page-break-before {
+        break-before: page;
+        page-break-before: always;
+        margin-top: 0;
+      }
+
       a {
         color: var(--ink);
       }
@@ -242,6 +252,7 @@
     <div class="page">
       <header>
         <h1>Sam Liu</h1>
+        <p class="headline">Cloud Software Engineer | Platform, DevEx &amp; Full Stack Systems</p>
         <div class="contact">
           <span>Sydney, NSW</span>
           <span><a href="tel:+61401560851">+61 401 560 851</a></span>
@@ -253,28 +264,26 @@
 
       <section>
         <h2>Professional Summary</h2>
-        <p class="summary">Software engineer with 8+ years of hands-on experience building enterprise applications and improving developer productivity across cloud delivery platforms. Strong background across <strong>Java/Spring Boot</strong>, <strong>React/Angular</strong>, <strong>AWS</strong>, <strong>Terraform</strong>, <strong>Kubernetes</strong>, <strong>Helm</strong>, <strong>Jenkins</strong>, and <strong>GitHub Actions</strong>, with proven impact reducing build times, improving deployment isolation, optimizing container images, and supporting platform migration across engineering teams.</p>
+        <p class="summary">Software engineer with 8+ years of hands-on experience building enterprise applications and improving developer productivity across cloud delivery platforms. Strong across <strong>Java/Spring Boot</strong>, <strong>React/Angular</strong>, <strong>AWS</strong>, <strong>Terraform</strong>, <strong>Kubernetes</strong>, <strong>Helm</strong>, <strong>Jenkins</strong>, and <strong>GitHub Actions</strong>. Recent work focuses on CI/CD acceleration, isolated developer environments, container optimization, observability, and platform migration across engineering teams.</p>
       </section>
 
       <section>
         <h2>Selected Impact</h2>
         <ul>
           <li>Reduced Java build time from approximately <strong>30 minutes to 3 minutes</strong> through CI/CD workflow redesign, build optimization, and caching.</li>
-          <li>Designed traffic-routed isolated deployment environments used by <strong>100+ engineers</strong>, removing shared test-channel waiting by routing developers to their own branch environment with fallback to the default main deployment.</li>
-          <li>Reduced container image size from approximately <strong>2GB to 400MB</strong> across frontend and backend build artifacts.</li>
-          <li>Supported migration from <strong>Bitbucket</strong> and Jenkins-based delivery toward <strong>GitHub</strong> and <strong>GitOps</strong> workflows.</li>
+          <li>Designed traffic-routed isolated deployment environments used by <strong>100+ engineers</strong>, removing shared test-channel waiting with branch-aware routing and fallback to main.</li>
+          <li>Reduced frontend and backend container image sizes from approximately <strong>2GB to 400MB</strong>.</li>
+          <li>Supported migration from <strong>Bitbucket/Jenkins</strong> delivery toward <strong>GitHub</strong> and <strong>GitOps</strong> workflows.</li>
         </ul>
       </section>
 
       <section>
         <h2>Core Skills</h2>
         <div class="skills">
-          <div class="skill-row"><strong>Cloud &amp; DevOps</strong><span>AWS, GCP, Terraform, Docker, Kubernetes, Helm, Kustomize, Jenkins, GitHub Actions, GitOps, Cloud Build</span></div>
-          <div class="skill-row"><strong>DevEx</strong><span>CI/CD optimization, developer environments, environment isolation, internal developer tooling, feature flag tooling, build caching, platform migration, engineering standards</span></div>
-          <div class="skill-row"><strong>Backend</strong><span>Java 8/17, Spring Boot, Spring WebFlux, Spring Security, Spring MVC, Spring Data JPA, Hibernate, REST APIs</span></div>
-          <div class="skill-row"><strong>Frontend</strong><span>TypeScript, JavaScript, React, Angular, Vue, Next.js, AG Grid, Tailwind CSS, Material UI, Ant Design, micro frontends</span></div>
-          <div class="skill-row"><strong>Data &amp; Search</strong><span>PostgreSQL, MySQL, SQL Server, MongoDB, Redis, Elasticsearch, OpenSearch, Firestore</span></div>
-          <div class="skill-row"><strong>Practices</strong><span>Infrastructure as code, observability, Datadog monitoring, RUM/browser logging, agile delivery, mentoring, knowledge sharing, release standardization</span></div>
+          <div class="skill-row"><strong>Cloud &amp; DevOps</strong><span>AWS, GCP, Terraform, Docker, Kubernetes, Helm, Kustomize, Jenkins, GitHub Actions, GitOps</span></div>
+          <div class="skill-row"><strong>Developer Experience</strong><span>CI/CD optimization, isolated developer environments, internal tooling, feature flags, build caching, engineering standards</span></div>
+          <div class="skill-row"><strong>Backend &amp; Frontend</strong><span>Java 8/17, Spring Boot, WebFlux, Spring Security, REST APIs, TypeScript, React, Angular, Vue, micro frontends</span></div>
+          <div class="skill-row"><strong>Data &amp; Observability</strong><span>PostgreSQL, MySQL, SQL Server, MongoDB, Redis, Elasticsearch, OpenSearch, Datadog, RUM/browser logging</span></div>
         </div>
       </section>
 
@@ -286,28 +295,23 @@
           <div class="date">July 2022 - Present</div>
         </div>
         <ul>
-          <li>Redesigned Java CI/CD workflows across <strong>Jenkins</strong> and <strong>GitHub Actions</strong>, reducing JAR build time from approximately <strong>30 minutes to 3 minutes</strong> through build optimization and caching.</li>
-          <li>Reduced test and build pipeline duration by <strong>50%+</strong> by parallelizing test execution and applying targeted dependency, build, and artifact caching strategies.</li>
-          <li>Designed traffic-routed isolated developer deployment environments used by <strong>100+ engineers</strong>, replacing a shared test-channel bottleneck where teams had to wait for others to finish testing before deploying their own changes.</li>
-          <li>Implemented branch-aware routing that directed developers to their own deployed environment when available and fell back to the default main deployment when no branch environment was deployed.</li>
+          <li>Redesigned Java CI/CD workflows across <strong>Jenkins</strong> and <strong>GitHub Actions</strong>, reducing JAR build time from approximately <strong>30 minutes to 3 minutes</strong>; reduced broader test/build duration by <strong>50%+</strong> through parallelization and targeted caching.</li>
+          <li>Designed traffic-routed isolated developer deployment environments for <strong>100+ engineers</strong>, replacing shared test-channel bottlenecks with branch-aware routing and automatic fallback to the default main deployment.</li>
           <li>Optimized frontend and backend build artifacts, reducing container image size from approximately <strong>2GB to 400MB</strong>.</li>
           <li>Drove migration from <strong>Bitbucket</strong> to <strong>GitHub</strong> and supported the transition from Jenkins-based delivery to <strong>GitOps</strong> workflows.</li>
-          <li>Built an internal <strong>LaunchDarkly</strong> feature-flag access service with centralized permissions, allowing developers to use feature-flag capabilities through a shared platform instead of requiring individual seats and reducing SaaS subscription costs.</li>
-          <li>Managed <strong>AWS</strong> infrastructure with <strong>Terraform</strong> and supported Kubernetes-based deployments using <strong>Helm</strong> and <strong>Kustomize</strong>.</li>
-          <li>Configured <strong>Datadog</strong> monitors, RUM, and browser log collection to connect frontend user sessions with backend service logs and APM traces for faster issue analysis.</li>
-          <li>Maintained and enhanced <strong>AirView Web</strong>, a large-scale enterprise healthcare platform used across <strong>Europe, APAC, and the United States</strong>, delivering new product features while improving reliability and operational maintainability.</li>
-          <li>Built backend and frontend capabilities using <strong>Java 17</strong>, <strong>Spring Boot 3.2</strong>, <strong>Spring WebFlux</strong>, <strong>Spring Security</strong>, <strong>Angular</strong>, and <strong>React</strong> as part of a next-generation micro frontend architecture.</li>
-          <li>Standardized development and release practices across multiple teams, led knowledge-sharing sessions, mentored engineers, and served as a rotating Scrum Master.</li>
+          <li>Built an internal <strong>LaunchDarkly</strong> feature-flag access service with centralized permissions, enabling shared developer access while reducing individual SaaS seat dependency.</li>
+          <li>Managed <strong>AWS</strong> infrastructure with <strong>Terraform</strong> and supported Kubernetes deployments using <strong>Helm</strong> and <strong>Kustomize</strong>; configured <strong>Datadog</strong> monitors, RUM, browser logs, and APM correlation for faster issue analysis.</li>
+          <li>Maintained and enhanced <strong>AirView Web</strong>, a large-scale enterprise healthcare platform used across <strong>Europe, APAC, and the United States</strong>; delivered backend and frontend capabilities with <strong>Java 17</strong>, <strong>Spring Boot 3.2</strong>, <strong>WebFlux</strong>, <strong>Angular</strong>, and <strong>React</strong>.</li>
+          <li>Standardized development and release practices, led knowledge-sharing sessions, mentored engineers, and served as a rotating Scrum Master.</li>
         </ul>
 
-        <div class="role">
+        <div class="role page-break-before">
           <h3>Vnet Solutions Pty Ltd | Java Developer</h3>
           <div class="date">August 2021 - July 2022</div>
         </div>
         <ul>
           <li>Built and maintained a full stack inventory management system using <strong>Java 8</strong>, <strong>Spring Boot</strong>, <strong>Hibernate/Spring Data JPA</strong>, <strong>Quartz</strong>, <strong>Redis</strong>, <strong>Spring Batch</strong>, and <strong>Apache POI</strong>.</li>
-          <li>Developed frontend features with <strong>Angular</strong> and <strong>AG Grid</strong>, improving operational data entry and reporting workflows.</li>
-          <li>Supported production and UAT deployments, provided Level 3 technical support, and resolved application issues across backend, frontend, and database layers.</li>
+          <li>Developed Angular and AG Grid features for operational data entry and reporting workflows; supported production/UAT deployments and Level 3 issue resolution across backend, frontend, and database layers.</li>
         </ul>
 
         <div class="role">
@@ -315,10 +319,8 @@
           <div class="date">November 2020 - July 2021</div>
         </div>
         <ul>
-          <li>Developed back-office platform features including activity configuration, gift configuration, and role-based limitations using <strong>React</strong> and <strong>Laravel REST APIs</strong>.</li>
-          <li>Led delivery of a CRM system as a full stack developer using <strong>Vue</strong>, <strong>Spring Boot</strong>, <strong>MyBatis Plus</strong>, <strong>Element Admin</strong>, and <strong>PostgreSQL</strong>.</li>
-          <li>Implemented caching strategies for high-volume request paths and improved backend responsiveness.</li>
-          <li>Built a log collection and analytics platform using <strong>Elasticsearch</strong>, <strong>Logstash</strong>, <strong>Filebeat</strong>, and <strong>Kibana</strong>.</li>
+          <li>Delivered back-office, CRM, and role-based platform capabilities using <strong>React</strong>, <strong>Vue</strong>, <strong>Laravel REST APIs</strong>, <strong>Spring Boot</strong>, <strong>MyBatis Plus</strong>, and <strong>PostgreSQL</strong>.</li>
+          <li>Implemented caching for high-volume request paths and built ELK-based log collection and analytics to improve operational visibility.</li>
         </ul>
       </section>
 
@@ -341,7 +343,7 @@
       </section>
 
       <section>
-        <p class="links"><a href="./shanzheng.liu-CV-software-engineer.pdf">Download PDF Version</a></p>
+        <p class="links"><a href="./shanzheng.liu-CV-software-engineer-readable.pdf">Download PDF Version</a></p>
       </section>
     </div>
   </main>
