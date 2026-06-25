@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sam Liu | Cloud Software Engineer</title>
+  <title>Sam Liu | Software Engineer</title>
   <style>
     :root {
       --ink: #172033;
@@ -242,7 +242,6 @@
     <div class="page">
       <header>
         <h1>Sam Liu</h1>
-        <p class="headline">Java | Spring Boot | React | AWS | Kubernetes | Terraform | CI/CD</p>
         <div class="contact">
           <span>Sydney, NSW</span>
           <span><a href="tel:+61401560851">+61 401 560 851</a></span>
@@ -254,17 +253,28 @@
 
       <section>
         <h2>Professional Summary</h2>
-        <p class="summary">Cloud-focused full stack software engineer with 8+ years of software engineering experience, including enterprise full stack and cloud engineering roles across Australia and earlier international experience. Strong hands-on background across <strong>Java/Spring Boot</strong>, <strong>React/Angular</strong>, <strong>AWS</strong>, <strong>Terraform</strong>, <strong>Kubernetes</strong>, <strong>Helm</strong>, and <strong>GitHub Actions</strong>, with proven impact in deployment acceleration, platform migration, image optimization, and engineering process standardization.</p>
+        <p class="summary">Software engineer with 8+ years of hands-on experience building enterprise applications and improving developer productivity across cloud delivery platforms. Strong background across <strong>Java/Spring Boot</strong>, <strong>React/Angular</strong>, <strong>AWS</strong>, <strong>Terraform</strong>, <strong>Kubernetes</strong>, <strong>Helm</strong>, <strong>Jenkins</strong>, and <strong>GitHub Actions</strong>, with proven impact reducing build times, improving deployment isolation, optimizing container images, and supporting platform migration across engineering teams.</p>
+      </section>
+
+      <section>
+        <h2>Selected Impact</h2>
+        <ul>
+          <li>Reduced Java build time from approximately <strong>30 minutes to 3 minutes</strong> through CI/CD workflow redesign, build optimization, and caching.</li>
+          <li>Designed traffic-routed isolated deployment environments used by <strong>100+ engineers</strong>, removing shared test-channel waiting by routing developers to their own branch environment with fallback to the default main deployment.</li>
+          <li>Reduced container image size from approximately <strong>2GB to 400MB</strong> across frontend and backend build artifacts.</li>
+          <li>Supported migration from <strong>Bitbucket</strong> and Jenkins-based delivery toward <strong>GitHub</strong> and <strong>GitOps</strong> workflows.</li>
+        </ul>
       </section>
 
       <section>
         <h2>Core Skills</h2>
         <div class="skills">
-          <div class="skill-row"><strong>Backend</strong><span>Java 8/17, Spring Boot, Spring WebFlux, Spring Security, Spring MVC, Spring Data JPA, Hibernate, Laravel, REST APIs</span></div>
-          <div class="skill-row"><strong>Frontend</strong><span>TypeScript, JavaScript, React, Angular, Vue, Next.js, AG Grid, Tailwind CSS, Material UI, Ant Design</span></div>
           <div class="skill-row"><strong>Cloud &amp; DevOps</strong><span>AWS, GCP, Terraform, Docker, Kubernetes, Helm, Kustomize, Jenkins, GitHub Actions, GitOps, Cloud Build</span></div>
+          <div class="skill-row"><strong>DevEx</strong><span>CI/CD optimization, developer environments, environment isolation, internal developer tooling, feature flag tooling, build caching, platform migration, engineering standards</span></div>
+          <div class="skill-row"><strong>Backend</strong><span>Java 8/17, Spring Boot, Spring WebFlux, Spring Security, Spring MVC, Spring Data JPA, Hibernate, REST APIs</span></div>
+          <div class="skill-row"><strong>Frontend</strong><span>TypeScript, JavaScript, React, Angular, Vue, Next.js, AG Grid, Tailwind CSS, Material UI, Ant Design, micro frontends</span></div>
           <div class="skill-row"><strong>Data &amp; Search</strong><span>PostgreSQL, MySQL, SQL Server, MongoDB, Redis, Elasticsearch, OpenSearch, Firestore</span></div>
-          <div class="skill-row"><strong>Practices</strong><span>Micro frontends, CI/CD, infrastructure as code, developer environments, environment isolation, MCP services, feature flag platforms, platform migration, observability, agile delivery, mentoring</span></div>
+          <div class="skill-row"><strong>Practices</strong><span>Infrastructure as code, observability, Datadog monitoring, RUM/browser logging, agile delivery, mentoring, knowledge sharing, release standardization</span></div>
         </div>
       </section>
 
@@ -276,16 +286,17 @@
           <div class="date">July 2022 - Present</div>
         </div>
         <ul>
-          <li>Maintained and enhanced <strong>AirView Web</strong>, a large-scale enterprise healthcare platform used across <strong>Europe, APAC, and the United States</strong>, delivering new product features while improving reliability and operational maintainability.</li>
-          <li>Built scalable frontend capabilities across <strong>Angular</strong> and <strong>React</strong> as part of a next-generation <strong>micro frontend</strong> architecture.</li>
-          <li>Led development of an experience service API using <strong>Java 17</strong>, <strong>Spring Boot 3.2</strong>, <strong>Spring WebFlux</strong>, and <strong>Spring Security</strong>.</li>
-          <li>Managed <strong>AWS</strong> infrastructure with <strong>Terraform</strong> and supported Kubernetes-based deployments using <strong>Helm</strong> and <strong>Kustomize</strong>.</li>
           <li>Redesigned Java CI/CD workflows across <strong>Jenkins</strong> and <strong>GitHub Actions</strong>, reducing JAR build time from approximately <strong>30 minutes to 3 minutes</strong> through build optimization and caching.</li>
           <li>Reduced test and build pipeline duration by <strong>50%+</strong> by parallelizing test execution and applying targeted dependency, build, and artifact caching strategies.</li>
-          <li>Designed isolated developer deployment environments used by <strong>100+ engineers</strong>, enabling teams to deploy and test feature branches independently without disrupting shared mainline or production-like environments.</li>
-          <li>Designed and delivered a shared <strong>LaunchDarkly MCP service</strong> with centralized access and user permission controls, allowing developers to use feature-flag capabilities through a shared platform instead of requiring individual seats and reducing SaaS subscription costs.</li>
-          <li>Drove migration from <strong>Bitbucket</strong> to <strong>GitHub</strong> and supported the transition from Jenkins-based delivery to <strong>GitOps</strong> workflows.</li>
+          <li>Designed traffic-routed isolated developer deployment environments used by <strong>100+ engineers</strong>, replacing a shared test-channel bottleneck where teams had to wait for others to finish testing before deploying their own changes.</li>
+          <li>Implemented branch-aware routing that directed developers to their own deployed environment when available and fell back to the default main deployment when no branch environment was deployed.</li>
           <li>Optimized frontend and backend build artifacts, reducing container image size from approximately <strong>2GB to 400MB</strong>.</li>
+          <li>Drove migration from <strong>Bitbucket</strong> to <strong>GitHub</strong> and supported the transition from Jenkins-based delivery to <strong>GitOps</strong> workflows.</li>
+          <li>Built an internal <strong>LaunchDarkly</strong> feature-flag access service with centralized permissions, allowing developers to use feature-flag capabilities through a shared platform instead of requiring individual seats and reducing SaaS subscription costs.</li>
+          <li>Managed <strong>AWS</strong> infrastructure with <strong>Terraform</strong> and supported Kubernetes-based deployments using <strong>Helm</strong> and <strong>Kustomize</strong>.</li>
+          <li>Configured <strong>Datadog</strong> monitors, RUM, and browser log collection to connect frontend user sessions with backend service logs and APM traces for faster issue analysis.</li>
+          <li>Maintained and enhanced <strong>AirView Web</strong>, a large-scale enterprise healthcare platform used across <strong>Europe, APAC, and the United States</strong>, delivering new product features while improving reliability and operational maintainability.</li>
+          <li>Built backend and frontend capabilities using <strong>Java 17</strong>, <strong>Spring Boot 3.2</strong>, <strong>Spring WebFlux</strong>, <strong>Spring Security</strong>, <strong>Angular</strong>, and <strong>React</strong> as part of a next-generation micro frontend architecture.</li>
           <li>Standardized development and release practices across multiple teams, led knowledge-sharing sessions, mentored engineers, and served as a rotating Scrum Master.</li>
         </ul>
 
@@ -321,8 +332,8 @@
           <h2>Certifications</h2>
           <ul>
             <li>AWS Certified Solutions Architect - Professional</li>
-            <li>Google Cloud Certified Professional Cloud Architect</li>
             <li>Certified Kubernetes Administrator (CKA)</li>
+            <li>Google Cloud Certified Professional Cloud Architect</li>
             <li>Project Management Professional (PMP)</li>
             <li>Microsoft Certified: Azure AI Fundamentals</li>
           </ul>
